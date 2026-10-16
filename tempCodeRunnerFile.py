@@ -1,0 +1,10 @@
+    "win",
+    "loss",
+    "win",
+    "win",
+    "loss",
+    "win",
+    "loss",
+    "win",
+    "win",
+    "loss"
