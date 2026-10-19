@@ -1,8 +1,8 @@
-from count_matches import count_matches
-from count_losses import count_losses
-from count_wins import count_wins
-from calculate_win_rate import calculate_win_rate
-from longest_win_streak import longest_win_streak
+from stats.legacy.count_matches import count_matches
+from stats.legacy.count_losses import count_losses
+from stats.legacy.count_wins import count_wins
+from stats.legacy.calculate_win_rate import calculate_win_rate
+from stats.legacy.longest_win_streak import longest_win_streak
 
 def get_match_summary(matches):
     summary = {

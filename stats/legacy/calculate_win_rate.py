@@ -1,5 +1,5 @@
-from count_wins import count_wins
-from count_matches import count_matches
+from stats.legacy.count_wins import count_wins
+from stats.legacy.count_matches import count_matches
 
 def calculate_win_rate(matches):
     if len(matches) == 0:
