@@ -4,6 +4,7 @@ def extract_battle_info(battles, battle):
    battleTime = format_battle_time(battles[battle]["battleTime"])
    match = {
       "battle_time": battleTime,
+      "battle_time_raw": battles[battle]["battleTime"],
       "battle_type": battles[battle]["type"],
       "player_1": battles[battle]['team'][0]['name'],
       "player_1_tag": battles[battle]['team'][0]['tag'],
